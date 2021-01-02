@@ -1,6 +1,8 @@
+
 1282. Group the People Given the Group Size They Belong To
 ---
 __Difficulty:__ Medium
+
 Description
 ---
 There are n people that are split into some unknown number of groups. Each person is labeled with a unique ID from 0 to n - 1.
