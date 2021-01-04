@@ -1,0 +1,20 @@
+1561 Maximum Number of Coins You Can Get
+---
+__Difficulty:__ Medium
+
+Description
+---
+There are 3n piles of coins of varying size, you and your friends will take piles of coins as follows:
+
+ - In each step, you will choose any 3 piles of coins (not necessarily consecutive).
+ - Of your choice, Alice will pick the pile with the maximum number of coins.
+ - You will pick the next pile with maximum number of coins.
+ - Your friend Bob will pick the last pile.
+ - Repeat until there are no more piles of coins.
+Given an array of integers ```piles```` where ```piles[i]``` is the number of coins in the ```i```th pile.
+
+Return the maximum number of coins which you can have.
+
+Solution
+---
+Easy. On each round you just want to pick the highest value pile (since you'll never get it anyway), the second highest (the best you can do for yourself), and the lowest (to give to Bob). 
